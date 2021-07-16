@@ -1,0 +1,80 @@
+Collecting pymortar
+  Using cached pymortar-2.0.4-py3-none-any.whl (10.0 kB)
+Collecting brickschema<0.5,>=0.4
+  Using cached brickschema-0.4.1-py3-none-any.whl (372 kB)
+Collecting rdflib<6.0.0,>=5.0.0
+  Using cached rdflib-5.0.0-py3-none-any.whl (231 kB)
+Collecting pyarrow<4.0.0,>=3.0.0
+  Using cached pyarrow-3.0.0-cp38-cp38-macosx_10_13_x86_64.whl (14.1 MB)
+Collecting python-snappy<0.7.0,>=0.6.0
+  Using cached python_snappy-0.6.0-cp38-cp38-macosx_10_9_x86_64.whl (45 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.52.0
+  Using cached googleapis_common_protos-1.53.0-py2.py3-none-any.whl (198 kB)
+Requirement already satisfied: pandas<2.0,>=1.1 in /opt/anaconda3/lib/python3.8/site-packages (from pymortar) (1.1.3)
+Collecting requests<3.0.0,>=2.25.0
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+Collecting zstd<2.0.0,>=1.5.0
+  Using cached zstd-1.5.0.2.tar.gz (528 kB)
+Requirement already satisfied: sqlalchemy<2.0,>=1.3 in /opt/anaconda3/lib/python3.8/site-packages (from brickschema<0.5,>=0.4->pymortar) (1.3.20)
+Collecting importlib-resources<4.0.0,>=3.3.0
+  Using cached importlib_resources-3.3.1-py2.py3-none-any.whl (26 kB)
+Collecting owlrl<6.0,>=5.2
+  Using cached owlrl-5.2.1-py3-none-any.whl (56 kB)
+Collecting tabulate<0.9.0,>=0.8.7
+  Using cached tabulate-0.8.9-py3-none-any.whl (25 kB)
+Collecting pytest<7.0,>=6.2
+  Using cached pytest-6.2.4-py3-none-any.whl (280 kB)
+Requirement already satisfied: xlrd<2.0.0,>=1.2.0 in /opt/anaconda3/lib/python3.8/site-packages (from brickschema<0.5,>=0.4->pymortar) (1.2.0)
+Requirement already satisfied: Flask<2.0.0,>=1.1.2 in /opt/anaconda3/lib/python3.8/site-packages (from brickschema<0.5,>=0.4->pymortar) (1.1.2)
+Collecting click-spinner<0.2.0,>=0.1.10
+  Using cached click_spinner-0.1.10-py2.py3-none-any.whl (4.0 kB)
+Collecting typer[all]<0.4.0,>=0.3.2
+  Using cached typer-0.3.2-py3-none-any.whl (21 kB)
+Requirement already satisfied: PyYAML<6.0.0,>=5.3.1 in /opt/anaconda3/lib/python3.8/site-packages (from brickschema<0.5,>=0.4->pymortar) (5.3.1)
+Requirement already satisfied: Jinja2<3.0.0,>=2.11.2 in /opt/anaconda3/lib/python3.8/site-packages (from brickschema<0.5,>=0.4->pymortar) (2.11.2)
+Collecting pyshacl<0.15.0,>=0.14.2
+  Using cached pyshacl-0.14.5-py3-none-any.whl (194 kB)
+Collecting isodate
+  Using cached isodate-0.6.0-py2.py3-none-any.whl (45 kB)
+Requirement already satisfied: six in /opt/anaconda3/lib/python3.8/site-packages (from rdflib<6.0.0,>=5.0.0->pymortar) (1.15.0)
+Requirement already satisfied: pyparsing in /opt/anaconda3/lib/python3.8/site-packages (from rdflib<6.0.0,>=5.0.0->pymortar) (2.4.7)
+Requirement already satisfied: numpy>=1.16.6 in /opt/anaconda3/lib/python3.8/site-packages (from pyarrow<4.0.0,>=3.0.0->pymortar) (1.20.2)
+Collecting protobuf>=3.12.0
+  Using cached protobuf-3.17.3-cp38-cp38-macosx_10_9_x86_64.whl (1.0 MB)
+Requirement already satisfied: pytz>=2017.2 in /opt/anaconda3/lib/python3.8/site-packages (from pandas<2.0,>=1.1->pymortar) (2020.1)
+Requirement already satisfied: python-dateutil>=2.7.3 in /opt/anaconda3/lib/python3.8/site-packages (from pandas<2.0,>=1.1->pymortar) (2.8.1)
+Collecting charset-normalizer~=2.0.0; python_version >= "3"
+  Downloading charset_normalizer-2.0.2-py3-none-any.whl (35 kB)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/anaconda3/lib/python3.8/site-packages (from requests<3.0.0,>=2.25.0->pymortar) (1.25.11)
+Requirement already satisfied: idna<4,>=2.5; python_version >= "3" in /opt/anaconda3/lib/python3.8/site-packages (from requests<3.0.0,>=2.25.0->pymortar) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/anaconda3/lib/python3.8/site-packages (from requests<3.0.0,>=2.25.0->pymortar) (2021.5.30)
+Processing /Users/ruijisun/Library/Caches/pip/wheels/3a/97/90/e133cbb98e344c2ca55120f8d704f6ff57bdfd8e30f1dc5451/rdflib_jsonld-0.5.0-py2.py3-none-any.whl
+Requirement already satisfied: packaging in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (20.4)
+Requirement already satisfied: pluggy<1.0.0a1,>=0.12 in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (0.13.1)
+Requirement already satisfied: iniconfig in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (1.1.1)
+Requirement already satisfied: attrs>=19.2.0 in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (20.3.0)
+Requirement already satisfied: toml in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (0.10.1)
+Requirement already satisfied: py>=1.8.2 in /opt/anaconda3/lib/python3.8/site-packages (from pytest<7.0,>=6.2->brickschema<0.5,>=0.4->pymortar) (1.9.0)
+Requirement already satisfied: Werkzeug>=0.15 in /opt/anaconda3/lib/python3.8/site-packages (from Flask<2.0.0,>=1.1.2->brickschema<0.5,>=0.4->pymortar) (1.0.1)
+Requirement already satisfied: itsdangerous>=0.24 in /opt/anaconda3/lib/python3.8/site-packages (from Flask<2.0.0,>=1.1.2->brickschema<0.5,>=0.4->pymortar) (1.1.0)
+Requirement already satisfied: click>=5.1 in /opt/anaconda3/lib/python3.8/site-packages (from Flask<2.0.0,>=1.1.2->brickschema<0.5,>=0.4->pymortar) (7.1.2)
+Requirement already satisfied: colorama<0.5.0,>=0.4.3; extra == "all" in /opt/anaconda3/lib/python3.8/site-packages (from typer[all]<0.4.0,>=0.3.2->brickschema<0.5,>=0.4->pymortar) (0.4.4)
+Collecting shellingham<2.0.0,>=1.3.0; extra == "all"
+  Using cached shellingham-1.4.0-py2.py3-none-any.whl (9.4 kB)
+Requirement already satisfied: MarkupSafe>=0.23 in /opt/anaconda3/lib/python3.8/site-packages (from Jinja2<3.0.0,>=2.11.2->brickschema<0.5,>=0.4->pymortar) (1.1.1)
+Building wheels for collected packages: zstd
+  Building wheel for zstd (setup.py): started
+  Building wheel for zstd (setup.py): finished with status 'done'
+  Created wheel for zstd: filename=zstd-1.5.0.2-cp38-cp38-macosx_10_9_x86_64.whl size=498371 sha256=11e0eaeefcc71334e7162fd00bf5f3715445ddfe88ed570845c19cd3665ff5c6
+  Stored in directory: /Users/ruijisun/Library/Caches/pip/wheels/31/68/34/da4f14a47e9464edd6f2232ef1d0f979d93600e5377bb84a39
+Successfully built zstd
+Installing collected packages: importlib-resources, isodate, rdflib, rdflib-jsonld, owlrl, tabulate, charset-normalizer, requests, pytest, click-spinner, shellingham, typer, pyshacl, brickschema, pyarrow, python-snappy, protobuf, googleapis-common-protos, zstd, pymortar
+  Attempting uninstall: requests
+    Found existing installation: requests 2.24.0
+    Uninstalling requests-2.24.0:
+      Successfully uninstalled requests-2.24.0
+  Attempting uninstall: pytest
+    Found existing installation: pytest 0.0.0
+    Uninstalling pytest-0.0.0:
+      Successfully uninstalled pytest-0.0.0
+Successfully installed brickschema-0.4.1 charset-normalizer-2.0.2 click-spinner-0.1.10 googleapis-common-protos-1.53.0 importlib-resources-3.3.1 isodate-0.6.0 owlrl-5.2.1 protobuf-3.17.3 pyarrow-3.0.0 pymortar-2.0.4 pyshacl-0.14.5 pytest-6.2.4 python-snappy-0.6.0 rdflib-5.0.0 rdflib-jsonld-0.5.0 requests-2.26.0 shellingham-1.4.0 tabulate-0.8.9 typer-0.3.2 zstd-1.5.0.2
